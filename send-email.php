@@ -1,7 +1,6 @@
 <?php
 $name =$_POST["name"];
 $email =$_POST["email"];
-$subject =$_POST["subject"];
 $message =$_POST["message"];
 require "vendor/autoload.php";
 
@@ -9,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 $mail=new PHPMailer(true);
 
-$mail->SMTPDebug=SMTP::DEBUG_SERVER;
+// $mail->SMTPDebug=SMTP::DEBUG_SERVER;
 
 $mail->isSMTP();
 $mail->SMTPAuth =true;
@@ -25,9 +24,13 @@ $mail->setFrom($email, $name);
 $mail->addAddress("waellatiri2@gmail.com","wael");
 
 
-$mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
 
-echo "email send";
+// echo "email send";   
+$previous = "javascript:history.go(-1)";
+if(isset($_SERVER['HTTP_REFERER'])) {
+    $previous = $_SERVER['HTTP_REFERER'];
+}
+echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>";
