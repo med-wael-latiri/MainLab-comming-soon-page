@@ -2,6 +2,9 @@
 $name =$_POST["name"];
 $email =$_POST["email"];
 $message =$_POST["message"];
+// if(isset($_POST['button'])){
+//     echo $_SERVER[HTTP_REFERER]; 
+//    }
 require "vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -28,9 +31,4 @@ $mail->Body = $message;
 
 $mail->send();
 
-// echo "email send";   
-$previous = "javascript:history.go(-1)";
-if(isset($_SERVER['HTTP_REFERER'])) {
-    $previous = $_SERVER['HTTP_REFERER'];
-}
-echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>";
+echo "email send";   
