@@ -1,0 +1,62 @@
+.elementor-206
+  .elementor-element.elementor-element-0d7ba66
+  .agency
+  .main-banner {
+  background-image: url("../../2019/10/background image.jpg");
+}
+.elementor-206 .elementor-element.elementor-element-0d7ba66 .agency {
+  font-family: "Hind", Sans-serif;
+}
+.elementor-206
+  .elementor-element.elementor-element-0d7ba66
+  .agency
+  .coming-soon-content
+  h1 {
+  font-family: "Dosis", Sans-serif;
+}
+.elementor-206
+  .elementor-element.elementor-element-0d7ba66
+  .agency
+  .main-banner-content
+  .newsletter-form
+  button:hover,
+.agency .sidebar-modal .contact-area .contact-info .contact-info-content h2 a,
+.agency
+  .sidebar-modal
+  .contact-area
+  .contact-info
+  .contact-info-content
+  h2
+  a:not(:first-child):hover {
+  color: #243464;
+}
+.agency .main-banner-content .newsletter-form button,
+.agency .count-down-timer,
+.agency .footer-area ul li a:hover,
+.agency .sidebar-modal .contact-area .contact-form button:hover,
+.agency
+  .sidebar-modal
+  .contact-area
+  .contact-info
+  .contact-info-content
+  .social
+  li
+  a:hover,
+.agency .preloader {
+  background-color: #8cdcbc;
+}
+
+.agency .footer-area ul li a:hover,
+.agency
+  .sidebar-modal
+  .contact-area
+  .contact-info
+  .contact-info-content
+  .social
+  li
+  a:hover {
+  border-color: #243464;
+}
+.backgroundmainlab {
+  background-color: #243464;
+}

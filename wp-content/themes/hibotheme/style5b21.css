@@ -1,0 +1,97 @@
+/*
+Theme Name: HiBotheme
+Theme URI: https://hibotheme.com/
+Author: HiBotheme
+Author URI: https://hibotheme.com/
+Description: A Premium High Quality Themes & Templates Platform
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hibotheme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+.cb-envytheme {
+  clear: both;
+}
+.has_carts .cart-menu {
+  color: #0000ff !important;
+}
+.has_carts .cart-menu i {
+  color: #0000ff !important;
+}
+.pswp__caption__center {
+  display: none;
+}
+.product-template-default {
+  padding-bottom: 42px;
+}
+.product-template-default .go-top {
+  bottom: 45px;
+}
+.additional-options-area ul li .price del .amount,
+.additional-options-area ul li .price del {
+  color: red !important;
+  opacity: 1 !important;
+}
+.additional-options-area ul li h3 a {
+  color: #1774ef !important;
+}
+.item-details .price del .amount,
+.item-details .price del {
+  color: red !important;
+  opacity: 1 !important;
+}
+.ht-notification-text {
+  text-align: center;
+}
+.ht-notification-section {
+  z-index: 999999 !important;
+}
+.ht-notification-text p {
+  font-size: 17px !important;
+}
+.ht-notification-text a {
+  color: #fcff21;
+}
+.ht-notification-text a:hover {
+  color: #000;
+}
+/* Bundle CSS */
+.woosb-wrap {
+  display: block;
+  clear: both;
+  padding-top: 40px;
+}
+
+.contact-form .nice-select {
+  float: none !important;
+}
+.contact-form .custom-file-label {
+  padding: 3px 10px;
+}
+.order-btn {
+  text-align: center;
+}
+.order-btn .default-btn {
+  font-size: 17px;
+}
+.order-details table.shop_table .cart_item .product-name,
+.order-details table.shop_table .cart_item .product-total {
+  background: #bee5eb;
+  color: #0c5460;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+  background-color: #808080 !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+  background-color: #808080 !important;
+}
+.preloader img {
+  max-width: 180px;
+}
+footer.footer-area .logo img {
+  max-width: 180px;
+}
+.go-top {
+  right: 80px !important;
+}

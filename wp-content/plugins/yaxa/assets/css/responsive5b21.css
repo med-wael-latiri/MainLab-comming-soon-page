@@ -1,0 +1,2700 @@
+/**
+* Yaxa Responsive CSS
+*/
+/* Construction Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .construction .navbar-area {
+    padding-top: 20px;
+  }
+  .construction .coming-soon-content {
+    text-align: center;
+  }
+  .construction .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 40px;
+  }
+  .construction .coming-soon-content p {
+    max-width: 100%;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 40px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    display: block;
+    font-size: 13px;
+    margin-left: 0;
+    margin-top: -7px;
+  }
+  .construction .coming-soon-content .finished-message {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .construction .coming-soon-content .notify-btn {
+    font-size: 14px;
+  }
+  .construction .footer-area {
+    text-align: center;
+  }
+  .construction .footer-area p {
+    font-size: 13px;
+  }
+  .construction .footer-area ul {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .construction .footer-area ul li span {
+    display: none;
+  }
+  .construction .footer-area ul li a {
+    font-size: 10.5px;
+  }
+  .construction .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .construction .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .construction .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .construction .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .construction .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .construction .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .construction .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .construction .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .construction .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .construction .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .construction .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .construction .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+    -webkit-transform: scale(0.7) translateY(0);
+            transform: scale(0.7) translateY(0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner p {
+    max-width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner .newsletter-header .animation-icons {
+    display: none;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner .newsletter-header img {
+    width: 100px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner form {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner form .input-newsletter {
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  }
+  .construction .subscribe-modal .subscribe-modal-inner form button {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner form #validator-newsletter {
+    bottom: -30px;
+    font-size: 13px;
+  }
+  .construction .subscribe-modal .subscribe-modal-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .construction .subscribe-modal.active .subscribe-modal-inner {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .construction .coming-soon-area {
+    height: 100%;
+    padding-top: 210px;
+    padding-bottom: 255px;
+  }
+  .construction .coming-soon-content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .construction .coming-soon-content h5 {
+    font-size: 18px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 42px;
+  }
+  .construction .coming-soon-content p {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .construction .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .construction .subscribe-modal .subscribe-modal-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .construction .subscribe-modal .subscribe-modal-content h2 {
+    font-size: 24px;
+  }
+  .construction .subscribe-modal .subscribe-modal-content p {
+    font-size: 14px;
+  }
+  .construction .subscribe-modal .subscribe-modal-content .close-btn {
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .construction .coming-soon-content h5 {
+    font-size: 19px;
+  }
+  .construction .coming-soon-content h1 {
+    font-size: 70px;
+  }
+  .construction .coming-soon-content p {
+    font-size: 15px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .construction .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-right: 30px;
+  }
+  .construction .coming-soon-content .notify-btn {
+    font-size: 16px;
+  }
+  .construction .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .construction .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .construction .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 25px;
+  }
+  .construction .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 25px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .construction .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End Construction Demo Responsive*/
+/* Restaurant One Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .restaurant-one .navbar-area {
+    padding-top: 20px;
+  }
+  .restaurant-one .navbar-menu .logo {
+    display: block;
+  }
+  .restaurant-one .finished-message {
+    font-size: 16px;
+  }
+  .restaurant-one .coming-soon-content .logo {
+    display: none;
+  }
+  .restaurant-one .coming-soon-content h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .restaurant-one .coming-soon-content h1 {
+    max-width: 100%;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+  .restaurant-one .coming-soon-content p {
+    font-size: 15px;
+    margin-top: 6px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 38px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items .yaxa-label {
+    font-size: 16px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+    -webkit-transform: scale(0.7) translateY(0);
+            transform: scale(0.7) translateY(0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner p {
+    max-width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner .newsletter-header .animation-icons {
+    display: none;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner .newsletter-header img {
+    width: 100px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner form {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner form .input-newsletter {
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner form button {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner form #validator-newsletter {
+    bottom: -30px;
+    font-size: 13px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .restaurant-one .subscribe-modal.active .subscribe-modal-inner {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .restaurant-one .coming-soon-area {
+    height: 100%;
+    padding-top: 210px;
+    padding-bottom: 170px;
+  }
+  .restaurant-one .coming-soon-content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .restaurant-one .coming-soon-content h5 {
+    font-size: 19px;
+  }
+  .restaurant-one .coming-soon-content h1 {
+    font-size: 44px;
+  }
+  .restaurant-one .coming-soon-content p {
+    font-size: 17px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 50px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items .yaxa-label {
+    font-size: 18px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-content h2 {
+    font-size: 24px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-content p {
+    font-size: 14px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-content .close-btn {
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .restaurant-one .navbar-menu .logo {
+    display: block;
+  }
+  .restaurant-one .coming-soon-content {
+    margin-top: 50px;
+  }
+  .restaurant-one .coming-soon-content .logo {
+    display: none;
+  }
+  .restaurant-one .coming-soon-content h5 {
+    font-size: 20px;
+  }
+  .restaurant-one .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .restaurant-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 50px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 25px;
+  }
+  .restaurant-one .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 25px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+/* End Restaurant One Demo Responsive*/
+/* Travel One Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .travel-one .btn {
+    padding: 14px 20px 13px;
+    font-size: 13px;
+  }
+  .travel-one .finished-message {
+    font-size: 15px;
+    margin-top: 24px;
+  }
+  .travel-one .coming-soon-content .countdown-timer-widget {
+    margin-bottom: 15px;
+  }
+  .travel-one .coming-soon-content .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-label {
+    font-size: 14.5px;
+    margin-top: -5px;
+  }
+  .travel-one .coming-soon-content .countdown-items::before {
+    display: none;
+  }
+  .travel-one .coming-soon-content h1 {
+    font-size: 55px;
+    line-height: 1.1;
+  }
+  .travel-one .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  .travel-one .coming-soon-content .btn-box .btn {
+    margin: 0 2px;
+  }
+  .travel-one .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .travel-one .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .travel-one .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .travel-one .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .travel-one .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .travel-one .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .travel-one .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .travel-one .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .travel-one .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .travel-one .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .travel-one .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .travel-one .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+    -webkit-transform: scale(0.7) translateY(0);
+            transform: scale(0.7) translateY(0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner p {
+    max-width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner .newsletter-header .animation-icons {
+    display: none;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner .newsletter-header img {
+    width: 100px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner form {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner form .input-newsletter {
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner form button {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner form #validator-newsletter {
+    bottom: -30px;
+    font-size: 13px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .travel-one .subscribe-modal.active .subscribe-modal-inner {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .travel-one .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .travel-one .coming-soon-content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .travel-one .coming-soon-content {
+    margin-top: 0;
+  }
+  .travel-one .coming-soon-content .countdown-items {
+    margin-bottom: 10px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-label {
+    font-size: 14.5px;
+    margin-top: -5px;
+  }
+  .travel-one .coming-soon-content .countdown-items::before {
+    display: block;
+    right: -32px;
+    top: -4px;
+    font-size: 40px;
+  }
+  .travel-one .coming-soon-content h1 {
+    font-size: 60px;
+    line-height: 1.1;
+  }
+  .travel-one .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-content h2 {
+    font-size: 24px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-content p {
+    font-size: 14px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-content .close-btn {
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .travel-one .coming-soon-content h1 {
+    font-size: 80px;
+  }
+  .travel-one .coming-soon-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 20px;
+  }
+  .travel-one .coming-soon-content .countdown-items {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 55px;
+  }
+  .travel-one .coming-soon-content .countdown-items .yaxa-label {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+  .travel-one .coming-soon-content .countdown-items::before {
+    right: -40px;
+    top: -8px;
+    font-size: 60px;
+  }
+  .travel-one .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .travel-one .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .travel-one .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 25px;
+  }
+  .travel-one .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 25px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .travel-one .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End Travel One Demo Responsive*/
+/* Start Restaurant Two Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .restaurant-two .navbar-area {
+    padding-top: 20px;
+  }
+  .restaurant-two .coming-soon-content {
+    text-align: center;
+  }
+  .restaurant-two .coming-soon-content h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .restaurant-two .coming-soon-content h1 {
+    line-height: 55px;
+    font-size: 50px;
+  }
+  .restaurant-two .coming-soon-content p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .restaurant-two .coming-soon-content .newsletter-form {
+    margin-top: 35px;
+  }
+  .restaurant-two .countdown-timer-widget {
+    margin-top: 50px;
+  }
+  .restaurant-two .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .restaurant-two .countdown-items .yaxa-digits {
+    font-size: 45px;
+  }
+  .restaurant-two .countdown-items .yaxa-label {
+    margin-top: -5px;
+    font-size: 15px;
+  }
+  .restaurant-two .finished-message {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .restaurant-two .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .restaurant-two .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .restaurant-two .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .restaurant-two .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .restaurant-two .sidebar-modal .about-area .title p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .restaurant-two .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .restaurant-two .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .restaurant-two .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .restaurant-two .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .restaurant-two .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .restaurant-two .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .restaurant-two .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .restaurant-two .coming-soon-area {
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 130px;
+  }
+  .restaurant-two .coming-soon-content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .restaurant-two .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .restaurant-two .coming-soon-content h1 {
+    font-size: 60px;
+  }
+  .restaurant-two .coming-soon-content p {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .restaurant-two .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .restaurant-two .countdown-items .yaxa-digits {
+    font-size: 55px;
+  }
+  .restaurant-two .countdown-items .yaxa-label {
+    margin-top: -8px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .restaurant-two .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .restaurant-two .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .restaurant-two .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .restaurant-two .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End Restaurant Two Demo Responsive*/
+/* Start Restaurant Three Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .restaurant-three .navbar-area {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .restaurant-three .newsletter-form .notice-massage {
+    padding-left: 81px;
+  }
+  .restaurant-three .count-down-timer {
+    text-align: center;
+    margin-top: 0;
+  }
+  .restaurant-three .count-down-timer .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .restaurant-three .count-down-timer .countdown-items .yaxa-digits {
+    font-size: 40px;
+  }
+  .restaurant-three .count-down-timer .countdown-items .yaxa-label {
+    text-transform: capitalize;
+    margin-top: -4px;
+  }
+  .restaurant-three .main-banner-content {
+    text-align: center;
+  }
+  .restaurant-three .main-banner-content h1 {
+    line-height: 50px;
+    font-size: 50px;
+  }
+  .restaurant-three .main-banner-content p {
+    max-width: 100%;
+    font-size: 16x;
+    margin-top: 20px;
+  }
+  .restaurant-three .main-banner-content .newsletter-form {
+    margin-top: 30px;
+  }
+  .restaurant-three .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-three .main-banner-content .newsletter-form button {
+    position: relative;
+    right: 0;
+    height: auto;
+    padding: 15px 30px;
+    line-height: initial;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .restaurant-three .main-banner {
+    height: 100%;
+    padding-top: 155px;
+    padding-bottom: 110px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .restaurant-three .count-down-timer .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .restaurant-three .count-down-timer .countdown-items .yaxa-digits {
+    font-size: 45px;
+  }
+  .restaurant-three .main-banner-content {
+    text-align: center;
+  }
+  .restaurant-three .main-banner-content h1 {
+    line-height: 53px;
+    font-size: 62px;
+  }
+  .restaurant-three .main-banner-content p {
+    font-size: 14px;
+  }
+  .restaurant-three .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-three .main-banner-content .newsletter-form button {
+    position: absolute;
+    right: 0;
+    height: 55px;
+    padding: 0 30px;
+    line-height: 55px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .restaurant-three .main-banner-content .newsletter-form {
+    margin-top: 30px;
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .restaurant-three .main-banner .col-lg-6 {
+    -ms-flex: 0 0 55%;
+    -webkit-box-flex: 0;
+            flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .restaurant-three .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .restaurant-three .main-banner-content .newsletter-form button {
+    right: 0;
+  }
+}
+
+/* End Restaurant Three Demo Responsive*/
+/* Start Real Estate Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .real-estate .navbar-area {
+    padding-top: 20px;
+  }
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area {
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 110px;
+  }
+  .real-estate .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content .logo h1 {
+    font-size: 15px;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 30px;
+  }
+  .real-estate .coming-soon-content p {
+    font-size: 13px;
+    max-width: 100%;
+    margin-top: 15px;
+  }
+  .real-estate .coming-soon-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form .input-newsletter {
+    height: 50px;
+    font-size: 13px;
+  }
+  .real-estate .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    font-size: 14px;
+    padding: 15px 30px;
+    margin-top: 15px;
+  }
+  .real-estate .coming-soon-content .newsletter-form .notice-massage {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .real-estate .coming-soon-content .countdown-timer-widget {
+    margin-top: 30px;
+  }
+  .real-estate .coming-soon-content .countdown-items {
+    border-width: 10px;
+    padding-top: 10px;
+    width: 110px;
+    height: 110px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .real-estate .coming-soon-content .countdown-items .yaxa-digits {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .real-estate .coming-soon-content .countdown-items .yaxa-label {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .real-estate .coming-soon-content .finished-message {
+    font-size: 16px;
+  }
+  .real-estate .coming-soon-image {
+    margin-right: 0;
+    margin-top: 45px;
+  }
+  .real-estate .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .real-estate .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .real-estate .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .real-estate .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .real-estate .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .real-estate .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .real-estate .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .real-estate .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .real-estate .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .real-estate .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .real-estate .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .real-estate .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 540px;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 35px;
+  }
+  .real-estate .coming-soon-content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area {
+    height: 100%;
+    padding-top: 220px;
+    padding-bottom: 130px;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 720px;
+  }
+  .real-estate .coming-soon-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 50px;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .real-estate .coming-soon-content .newsletter-form #validator-newsletter {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .real-estate .coming-soon-image {
+    margin-top: 45px;
+    margin-right: 0;
+  }
+  .real-estate .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .real-estate .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .real-estate .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .real-estate .navbar-menu .logo {
+    display: block;
+  }
+  .real-estate .coming-soon-area .container-fluid {
+    max-width: 960px;
+  }
+  .real-estate .coming-soon-content .logo {
+    display: none;
+  }
+  .real-estate .coming-soon-content h2 {
+    font-size: 44px;
+  }
+  .real-estate .coming-soon-content .countdown-items {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-width: 10px;
+    padding-top: 5px;
+  }
+  .real-estate .coming-soon-image {
+    margin-right: 0;
+  }
+  .real-estate .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End Real Estate Demo Responsive*/
+/* Start Creative Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .creative .coming-soon-content {
+    max-width: 100%;
+  }
+  .creative .coming-soon-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .creative .coming-soon-content p {
+    font-size: 13px;
+    max-width: 100%;
+    margin-top: 19px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-top: -2px;
+  }
+  .creative .coming-soon-content .newsletter-form .input-newsletter {
+    width: 100%;
+    height: 50px;
+    padding-left: 12px;
+    font-size: 14px;
+  }
+  .creative .coming-soon-content .newsletter-form .notice-massage {
+    left: 0;
+    right: 0;
+  }
+  .creative .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .creative .shape1, .creative .shape2 {
+    display: none;
+  }
+  .creative .footer-area {
+    padding-bottom: 30px;
+  }
+  .creative .footer-area ul li span {
+    display: none;
+  }
+  .creative .footer-area ul li a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .creative .coming-soon-area {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .creative .coming-soon-content {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .creative .coming-soon-content h2 {
+    font-size: 35px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .creative .coming-soon-content h2 {
+    font-size: 50px;
+  }
+  .creative .coming-soon-content p {
+    margin-top: 15px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget {
+    margin-bottom: 25px;
+  }
+  .creative .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 50px;
+  }
+  .creative .shape1, .creative .shape2 {
+    display: none;
+  }
+}
+
+/* End Creative Demo Responsive*/
+/* Start Doctor Demo Responsive*/
+@media only screen and (max-width: 767px) {
+  .doctor .btn {
+    padding: 14px 20px 13px 20px;
+    font-size: 12px;
+  }
+  .doctor .coming-soon-area {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .doctor .coming-soon-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .doctor .coming-soon-content .logo {
+    margin-bottom: 35px;
+  }
+  .doctor .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 32px;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 16px;
+  }
+  .doctor .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .doctor .coming-soon-content .btn-box {
+    margin-top: 25px;
+  }
+  .doctor .coming-soon-content .btn-box .btn {
+    margin: 0 3px;
+  }
+  .doctor .coming-soon-content .btn-box .btn i {
+    display: none;
+  }
+  .doctor .countdown-timer-widget {
+    position: relative;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    margin-top: 30px;
+  }
+  .doctor .countdown-timer-widget .countdown-items {
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+  .doctor .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .doctor .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 12.5px;
+    margin-top: -3px;
+  }
+  .doctor .shape1 {
+    left: 0;
+    top: 0;
+  }
+  .doctor .shape2 {
+    display: none;
+  }
+  .doctor .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .doctor .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .doctor .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .doctor .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .doctor .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .doctor .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .doctor .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .doctor .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .doctor .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .doctor .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .doctor .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .doctor .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner {
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+    -webkit-transform: scale(0.7) translateY(0);
+            transform: scale(0.7) translateY(0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner p {
+    max-width: 100%;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner .newsletter-header .animation-icons {
+    display: none;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner .newsletter-header img {
+    width: 100px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner form {
+    max-width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner form .input-newsletter {
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner form button {
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+    border-radius: 30px;
+    font-size: 15px;
+    -webkit-box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+            box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.2);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner form #validator-newsletter {
+    bottom: -30px;
+    font-size: 13px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .doctor .subscribe-modal.active .subscribe-modal-inner {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .doctor .btn {
+    padding: 14px 25px 13px 25px;
+    font-size: 13px;
+  }
+  .doctor .finished-message {
+    text-align: left;
+  }
+  .doctor .coming-soon-content {
+    text-align: left;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .doctor .coming-soon-content h2 {
+    font-size: 36px;
+  }
+  .doctor .coming-soon-content p {
+    font-size: 14px;
+    margin-top: 13px;
+  }
+  .doctor .countdown-timer-widget {
+    text-align: left;
+  }
+  .doctor .subscribe-modal .subscribe-modal-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-content h2 {
+    font-size: 24px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-content p {
+    font-size: 14px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-content .close-btn {
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .doctor .coming-soon-content {
+    margin-top: -80px;
+  }
+  .doctor .coming-soon-content h5 {
+    font-size: 18px;
+  }
+  .doctor .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 60px;
+  }
+  .doctor .coming-soon-content p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .doctor .coming-soon-content .btn-box {
+    margin-top: 30px;
+  }
+  .doctor .countdown-timer-widget {
+    right: 15px;
+    bottom: 10px;
+  }
+  .doctor .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .doctor .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .doctor .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner h2 {
+    font-size: 25px;
+  }
+  .doctor .subscribe-modal .subscribe-modal-inner .close-btn {
+    right: 25px;
+    top: 20px;
+    font-size: 25px;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End Doctor Demo Responsive*/
+/* Start IT Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .it .coming-soon-content {
+    max-width: 100%;
+  }
+  .it .coming-soon-content .newsletter-form .notice-massage {
+    left: 0;
+    right: 0;
+  }
+  .it .coming-soon-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .it .coming-soon-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .it .coming-soon-content .countdown-timer-widget {
+    margin-top: 20px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 40px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: none;
+  }
+  .it .coming-soon-content .newsletter-form {
+    margin-top: 35px;
+  }
+  .it .coming-soon-content .newsletter-form .input-newsletter {
+    height: 55px;
+    padding-left: 13px;
+    font-size: 15px;
+  }
+  .it .coming-soon-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    padding: 14px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .it .coming-soon-area {
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .it .coming-soon-content h1 {
+    font-size: 50px;
+  }
+  .it .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .it .coming-soon-content .countdown-timer-widget {
+    margin-top: 20px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 50px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: block;
+    right: -33px;
+    top: -5px;
+    font-size: 50px;
+  }
+  .it .coming-soon-content .newsletter-form .input-newsletter {
+    font-size: 16px;
+  }
+  .it .coming-soon-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    padding: 0 30px;
+    font-size: 15px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .it .coming-soon-content h1 {
+    font-size: 65px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 60px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 15px;
+    margin-top: -6px;
+  }
+  .it .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    font-size: 65px;
+    right: -49px;
+  }
+}
+
+/* End IT Demo Responsive */
+/* Start Agency Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .agency .navbar-area {
+    padding-top: 20px;
+  }
+  .agency .main-banner {
+    height: 100%;
+    padding-top: 190px;
+    padding-bottom: 100px;
+  }
+  .agency .main-banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .agency .main-banner-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .agency .main-banner-content .newsletter-form {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .agency .main-banner-content .newsletter-form .input-newsletter {
+    width: 100%;
+  }
+  .agency .main-banner-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .agency .main-banner-content .newsletter-form #validator-newsletter {
+    right: 0;
+  }
+  .agency .newsletter-form .notice-massage {
+    left: 0;
+    right: 0;
+  }
+  .agency .count-down-timer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 290px;
+    height: 290px;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  .agency .count-down-timer h3 {
+    font-size: 20px;
+  }
+  .agency .count-down-timer #timer .countdown-items {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .agency .count-down-timer #timer .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .agency .count-down-timer #timer .countdown-items .yaxa-label {
+    font-size: 14px;
+    margin-top: -3px;
+  }
+  .agency .count-down-timer #timer .countdown-items::before {
+    display: none;
+  }
+  .agency .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .agency .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .agency .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .agency .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .agency .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .agency .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .agency .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .agency .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .agency .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .agency .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .agency .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .agency .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .agency .footer-area {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .agency .main-banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .agency .main-banner-content p {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .agency .main-banner-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .agency .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .agency .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .agency .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .agency .main-banner-content {
+    margin-top: -70px;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 60px;
+  }
+  .agency .main-banner-content p {
+    margin-top: 14px;
+  }
+  .agency .main-banner-content .newsletter-form {
+    margin-top: 25px;
+  }
+  .agency .count-down-timer {
+    right: 0;
+    bottom: -265px;
+    width: 300px;
+    height: 300px;
+  }
+  .agency .count-down-timer h3 {
+    font-size: 23px;
+  }
+  .agency .count-down-timer #timer {
+    margin-top: 10px;
+  }
+  .agency .count-down-timer #timer .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .agency .count-down-timer #timer .countdown-items::before {
+    display: none;
+  }
+  .agency .count-down-timer #timer .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .agency .count-down-timer #timer .countdown-items .yaxa-label {
+    font-size: 15px;
+    margin-top: -3px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .agency .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+  .agency .main-banner-content h1 {
+    font-size: 67px;
+  }
+  .agency .count-down-timer {
+    right: 0;
+    bottom: -200px;
+  }
+}
+
+/* End Agency Demo Responsive */
+/* Start SEO Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .seo .navbar-area {
+    padding-top: 20px;
+  }
+  .seo .navbar-menu .burger-menu {
+    border-color: #000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000;
+  }
+  .seo .main-banner {
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 140px;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner-content {
+    text-align: center;
+    max-width: 100%;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 40px;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items::before {
+    display: none;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items .yaxa-label {
+    text-transform: capitalize;
+    margin-top: -4px;
+  }
+  .seo .main-banner-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .seo .main-banner-content p {
+    margin-top: 14px;
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .seo .main-banner-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content .newsletter-form .input-newsletter {
+    height: 55px;
+    font-size: 14.5px;
+  }
+  .seo .main-banner-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding: 15px 30px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  .seo .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .seo .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .seo .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .seo .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .seo .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .seo .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .seo .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .seo .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .seo .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .seo .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .seo .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .seo .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+  .seo .footer-area {
+    right: 0;
+    text-align: center;
+  }
+  .seo .notice-massage {
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .seo .main-banner .container-fluid {
+    max-width: 540px;
+  }
+  .seo .main-banner-content h1 {
+    font-size: 32px;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .seo .main-banner-content .countdown-timer-widget .countdown-items::before {
+    display: block;
+    right: -28px;
+    top: -9px;
+    font-size: 45px;
+  }
+  .seo .main-banner-content p {
+    font-size: 13.5px;
+  }
+  .seo .main-banner-content .newsletter-form button {
+    position: absolute;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 30px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .seo .navbar-menu .burger-menu {
+    border-color: #000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000;
+  }
+  .seo .main-banner {
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 145px;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner .container-fluid {
+    max-width: 720px;
+  }
+  .seo .main-banner-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-content .newsletter-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  .seo .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .seo .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .seo .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+  .seo .footer-area {
+    right: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .seo .navbar-menu .burger-menu {
+    border-color: #000;
+  }
+  .seo .navbar-menu .burger-menu span {
+    background: #000;
+  }
+  .seo .main-banner::before {
+    display: none;
+  }
+  .seo .main-banner .container-fluid {
+    max-width: 960px;
+  }
+  .seo .main-banner-content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .seo .main-banner-image {
+    left: 0;
+    bottom: 0;
+  }
+  .seo .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1610px) {
+  .seo .main-banner::before {
+    right: 0;
+  }
+  .seo .main-banner-content {
+    max-width: 674px;
+    margin-left: auto;
+  }
+}
+
+/* End SEO Demo Responsive */
+/* Start Creative Two Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .creative-two .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .creative-two .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-two .coming-soon-content h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .creative-two .coming-soon-content form {
+    max-width: 100%;
+  }
+  .creative-two .coming-soon-content form .btn {
+    padding: 15px 28px;
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .creative-two .coming-soon-content form #validator-newsletter {
+    font-size: 13px;
+    left: 0;
+    bottom: -26px;
+    right: 0;
+  }
+  .creative-two .coming-soon-content .social {
+    margin-top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .creative-two .coming-soon-content .social ul li {
+    margin: 0;
+  }
+  .creative-two .coming-soon-content .social ul li i {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    font-size: 13px;
+  }
+  .creative-two .coming-soon-content .widget {
+    padding-bottom: 0;
+  }
+  .creative-two .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-two .coming-soon-image img {
+    display: block;
+  }
+  .creative-two .coming-soon-time {
+    background-image: unset;
+  }
+  .creative-two .coming-soon-time img {
+    display: block;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget {
+    z-index: 2;
+    max-width: 100%;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget .countdown-items {
+    width: 90px;
+    height: 90px;
+    padding-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget .countdown-items .yaxa-label {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  .creative-two .coming-soon-time::before {
+    z-index: 1;
+  }
+  .creative-two .finished-message {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .creative-two .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget {
+    z-index: 1;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget .countdown-items {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .creative-two .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .creative-two .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-two .coming-soon-content .social {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 35px;
+  }
+  .creative-two .coming-soon-content form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creative-two .coming-soon-content form #validator-newsletter {
+    right: 0;
+    font-size: 13px;
+    bottom: -25px;
+  }
+  .creative-two .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-two .coming-soon-image img {
+    display: block;
+  }
+  .creative-two .coming-soon-time {
+    background-image: unset;
+  }
+  .creative-two .coming-soon-time img {
+    display: block;
+  }
+  .creative-two .coming-soon-time .countdown-timer-widget {
+    max-width: 100%;
+    z-index: 2;
+  }
+  .creative-two .coming-soon-time::before {
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .creative-two .coming-soon-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .creative-two .coming-soon-content .logo {
+    left: 30px;
+  }
+  .creative-two .coming-soon-content .social {
+    left: 30px;
+  }
+}
+
+/* End Creative Two Responsive */
+/* Start Creative Three Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .creative-three .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .creative-three .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-three .coming-soon-content h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .creative-three .coming-soon-content form {
+    max-width: 100%;
+  }
+  .creative-three .coming-soon-content form .btn {
+    padding: 15px 28px;
+    position: relative;
+    height: auto;
+    line-height: initial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  .creative-three .coming-soon-content form #validator-newsletter {
+    font-size: 13px;
+    left: 0;
+    bottom: -26px;
+    right: 0;
+  }
+  .creative-three .coming-soon-content .social {
+    margin-top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .creative-three .coming-soon-content .social ul li {
+    margin: 0;
+  }
+  .creative-three .coming-soon-content .social ul li a {
+    width: 33px;
+    height: 33px;
+    line-height: 34px;
+    font-size: 13px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 35px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: none;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .finished-message {
+    font-size: 14px;
+    left: 0;
+    right: 0;
+  }
+  .creative-three .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-three .coming-soon-image img {
+    display: block;
+  }
+  .creative-three .notice-massage {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .creative-three .coming-soon-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .creative-three .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: block;
+    font-size: 50px;
+    top: -19px;
+    right: -29px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .creative-three .coming-soon-content {
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .creative-three .coming-soon-content .logo {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 25px;
+  }
+  .creative-three .coming-soon-content .social {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 35px;
+  }
+  .creative-three .coming-soon-content form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creative-three .coming-soon-content form #validator-newsletter {
+    right: 0;
+    font-size: 13px;
+    bottom: -25px;
+  }
+  .creative-three .coming-soon-image {
+    background-image: unset;
+    width: auto;
+    height: auto;
+  }
+  .creative-three .coming-soon-image img {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .creative-three .coming-soon-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .creative-three .coming-soon-content .logo {
+    left: 30px;
+  }
+  .creative-three .coming-soon-content .social {
+    left: 30px;
+  }
+}
+
+/* End Creative Three Responsive */
+/* Start ICO Demo Responsive */
+@media only screen and (max-width: 767px) {
+  .ico .navbar-area {
+    padding-top: 20px;
+  }
+  .ico .coming-soon-area {
+    padding-bottom: 120px;
+    padding-top: 180px;
+  }
+  .ico .coming-soon-area .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .ico .coming-soon-image {
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .ico .coming-soon-content {
+    height: 100%;
+    max-width: 100%;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .ico .coming-soon-content h5 {
+    font-size: 14px;
+  }
+  .ico .coming-soon-content h1 {
+    line-height: 1.2;
+    font-size: 32px;
+  }
+  .ico .coming-soon-content p {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget {
+    margin-top: 30px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: none;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .finished-message {
+    font-size: 14px;
+  }
+  .ico .sidebar-modal .sidebar-modal-inner {
+    width: 100%;
+    padding: 30px;
+  }
+  .ico .sidebar-modal .sidebar-modal-inner .close-btn {
+    right: 20px;
+    top: 14px;
+    font-size: 20px;
+  }
+  .ico .sidebar-modal .about-area {
+    margin-bottom: 30px;
+  }
+  .ico .sidebar-modal .about-area .title h2 {
+    font-size: 20px;
+  }
+  .ico .sidebar-modal .about-area .title p {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.8;
+  }
+  .ico .sidebar-modal .contact-area .title {
+    margin-bottom: 20px;
+  }
+  .ico .sidebar-modal .contact-area .title h2 {
+    font-size: 20px;
+  }
+  .ico .sidebar-modal .contact-area .contact-form {
+    max-width: 100%;
+  }
+  .ico .sidebar-modal .contact-area .contact-info {
+    margin-top: 35px;
+  }
+  .ico .sidebar-modal .contact-area .contact-info .contact-info-content h3 {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .ico .sidebar-modal .contact-area .contact-info .contact-info-content h2 {
+    font-size: 22px;
+  }
+  .ico .sidebar-modal .contact-area .contact-info .contact-info-content h2 span {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ico .coming-soon-area .container-fluid {
+    max-width: 540px;
+  }
+  .ico .coming-soon-content h5 {
+    font-size: 15px;
+  }
+  .ico .coming-soon-content h1 {
+    font-size: 35px;
+  }
+  .ico .coming-soon-content p {
+    font-size: 13.5px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-label {
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    display: block;
+    font-size: 50px;
+    right: -28px;
+    top: -14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ico .navbar-menu .burger-menu {
+    font-size: 18px;
+  }
+  .ico .coming-soon-area {
+    padding-bottom: 120px;
+    padding-top: 180px;
+  }
+  .ico .coming-soon-area .container-fluid {
+    max-width: 720px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .ico .coming-soon-image {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .ico .coming-soon-content {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items .yaxa-digits {
+    font-size: 50px;
+  }
+  .ico .coming-soon-content .countdown-timer-widget .countdown-items::before {
+    right: -37px;
+    top: -18px;
+    font-size: 60px;
+  }
+  .ico .sidebar-modal .sidebar-modal-inner {
+    width: 85%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .ico .sidebar-modal .about-area .title h2 {
+    font-size: 24px;
+  }
+  .ico .sidebar-modal .contact-area .title h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ico .coming-soon-image {
+    padding-right: 0;
+  }
+  .ico .sidebar-modal .sidebar-modal-inner {
+    width: 60%;
+  }
+}
+
+/* End ICO Demo Responsive */
+/*# sourceMappingURL=responsive.css.map */
